@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || '3000'
 
 
-app.get('.index.html', function (request, response) {
+app.get('/', function (request, response) {
   response.send('Hello Viking!')
 })
 
