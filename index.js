@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 const port = process.env.PORT || '3000'
-app.get('/', function (request, response) {
+
+
+app.get('.index.html', function (request, response) {
   response.send('Hello Viking!')
 })
 
